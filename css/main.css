@@ -147,16 +147,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    
 }
 
-#NameEmail{
-    display: flex;
-    align-items: center;
+/*#NameEmail{
     margin-left:500px;
     margin-bottom: 45px;
-    width: 100px;
-    height: 100px;
-}
+    width: 300px;
+    height: 150px;
+}*/
 
 #contactT{
     font-size: 45px;
@@ -167,11 +167,42 @@ body {
     justify-content: center;
 }
 
-#msgBox {
-    display:flex;
-    align-items: center;
-    margin-left: 500px;
-    /*height: 200px; trying to figure out how to make my input box bigger*/  
+#msgBox{
+    flex-direction: column;
+}
+
+#NameEmail{
+    flex-direction: row;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-input{
+    width: 200px;
+    height: 35px;
+}
+#contact-message{
+    width: 412px;
+    height: 250px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 130px;
+}
+
+#submit{
+    background-color:#BB9D42;
+    color:#373435;
+    font-family:'Cardo', Arial, Helvetica, sans-serif, serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+    margin-bottom: 35px;
 }
 
 /*our story here*/
@@ -280,6 +311,7 @@ button a {
     position: absolute;
     bottom:0;
     width:100%;
-    height: 200px;
+    height: 150px;
     background-color: #313a5f;
 }
+
