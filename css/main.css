@@ -13,18 +13,18 @@ body {
 /* homepage, header & footer here*/
 
 #site {
-    margin:0 auto;
+    margin:0;
     width: 1080px;
 }
 
 #header{
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     position: sticky;
     padding-bottom: 30px;
     /*background-color: #313A5f;*/
     display: flex;
     flex-direction: row;
-    background-color: #b7b7b7b7;
+    background-color: #313a5f;
 }
 
 #Nav ul {
@@ -32,15 +32,20 @@ body {
     display: flex;
     flex-direction: row;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 75px;
 }
 
 #Nav ul li a {
     width: 50px;
     text-align: center;
+    color: #ffffff;
     /*margin-top: 150px;*/
     margin-left: 150px;  
+    text-decoration: none;
+}
+#Nav ul li a:hover {
+    text-decoration: underline;
 }
 
 .logo{ 
@@ -51,7 +56,7 @@ body {
 #homeBanner{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    width: 100%;
 }
 
 #welcomeTxt {
@@ -105,10 +110,10 @@ body {
 
 #foot{
     margin-top: 25px;
-    margin-bottom: 25px;
+   /* margin-bottom: 25px; */
     display:flex;
     flex-direction: row;
-    background-color: #b7b7b7b7;
+    background-color: #313a5f;
 }
 
 #footNav{
@@ -119,7 +124,13 @@ body {
     font-size: 25px;
     color: #ffffff;
 }
-
+#footNav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#footNav ul li a:hover {
+    text-decoration: underline;
+}
 #socialM {
     display: flex;
     margin-top: 55px;
@@ -219,4 +230,55 @@ a:visited{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+/* Landing page here*/
+
+.logoL {
+    display: flex;
+    justify-content: center;
+}
+#headerL {
+    /*margin-top: 25px;*/
+    position: sticky;
+    padding-bottom: 30px;
+    /*background-color: #313A5f;*/
+    background-color: #313a5f;
+}
+.txtL{
+    font-size: 45px;
+    font-family: 'Cardo', Arial, Helvetica, sans-serif, serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content: center;
+}
+button {
+    font-family: 'Cardo', Arial, Helvetica, sans-serif, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #373435;
+    background-color: #BB9D42;
+    cursor: pointer;
+    width:350px;
+    height: 100px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button a {
+    text-decoration: none;
+    color: #373435;
+}
+
+#footerL {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    height: 200px;
+    background-color: #313a5f;
 }
