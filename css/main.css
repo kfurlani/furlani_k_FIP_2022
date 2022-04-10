@@ -52,7 +52,33 @@ body {
     margin-left: 15px;
     margin-top: 5px
 }
+#Nav button
+{
+	background: url(../images/burger.svg) center no-repeat;
+	height: 20px;
+	width: 20px;
+	border: 1px;
+	transition: all 400ms ease;
+	margin-left: auto;
+}
 
+#Nav button.expanded
+{
+	transform: rotate(90deg);
+}
+#burgerCon
+{
+	margin-top: 20px;
+	display: none;
+}
+
+#burgerCon.slideToggle
+{
+	display: block;
+}
+@media screen and (min-width: 800px) {
+    
+}
 #homeBanner{
     display: flex;
     justify-content: center;
@@ -86,7 +112,9 @@ body {
     align-items: center;
     background-color: #373435;
 }
-
+@media screen and (min-width:200px) {
+    
+}
 #productImg {
     margin-top: 25px;
     margin-bottom: 25px;
