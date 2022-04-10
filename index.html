@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">  
-    
+    <!--plan was to use font awesome for social media icons but they don't show up(I removed the i tags because of this)-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
-    
+  
+    <script src="https://kit.fontawesome.com/34488505b5.js" crossorigin="anonymous"></script> 
+   
     <title>Clear Care</title>
 </head>
 <body>
@@ -37,15 +39,15 @@
     </section>
     <section id="welcomeTxt">
       <h2 class="hidden">Start of Body</h2>
-      <section id="welcomeMsg">
+      <section>
         <h2 class="hidden">A welcome message about the brand</h2>
         <div class="txtL">
           <p>TASTE THE BUBBLES</p>
         </div>
-        <div>
+        <div class="txtLand" class="center">
         <p>
           Clear Care has an all new formula. Jam packed <br>
-          with our HydraGlyde recipe and 3X the <br>
+          with our HydraGlyde recipe and 3x the <br>
           amount of bubbles. With Clear Care you’ll be <br> 
           keeping your eyes fresh all day.  <br>
         </p>
@@ -56,10 +58,10 @@
     <section id="Product">
       <h2 class="hidden">product promotion</h2>
       <div id="productImg">
-        <img src="https://via.placeholder.com/450x250" alt="this is a blank temp image"> 
+        <img src="images/bottle-black.jpg" alt="this is a blank temp image"> 
       </div>
       <section id="productButton">
-        <h3><a id="hire" href="products.html">CHECKOUT OUR PRODUCTS</a></h3>
+        <h3><a class="txtLand" href="products.html">CLICK HERE TO CHECKOUT OUR PRODUCTS</a></h3>
       </section>
     </section>
     <footer id="foot">
@@ -75,9 +77,18 @@
           <li> <a href="contactUs.html">CONTACT US</a> </li>
         </ul>
       </div>
-      <div id="socialM"> 
-        <p>FOLLOW US ON SOCIAL MEDIA</p>
+      <section>
+        <h2 class="hidden">message and contact info</h2>
+      <div id="footerTxt"> 
+        <p>PLEASE DRINK RESPONSIBILY</p>
       </div>
+     <!-- can't get this to do what I want it to <div id="address">
+        <p>
+           150 Simcoe St <br> London, ON <br> N6A 4M3 <br>
+           (519) 123-4567 ext. 24
+          </p>
+      </div>-->
+    </section>
     </footer>
 
 
